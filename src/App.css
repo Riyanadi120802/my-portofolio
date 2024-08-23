@@ -245,7 +245,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  /* background-image: url('./assets/img/banner-bg.png'); */
+  background-image: url('./assets/banner.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -274,10 +274,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #ffffff;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
+  text-align: justify;
   width: 96%;
 }
 .banner button {
@@ -313,7 +314,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     }
 }
 .txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
+  border-right: 0.08em solid #ffffff;
 }
 
 /************ Skills Css ************/
@@ -322,11 +323,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: rgba(255, 255, 255, 0.1); /* Transparansi rendah */
+  backdrop-filter: blur(10px); /* Efek blur */
+  -webkit-backdrop-filter: blur(10px); /* Efek blur untuk Safari */
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Border dengan transparansi */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan halus */
 }
 .skill h2 {
 	font-size: 45px;
@@ -346,6 +351,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-slider .item img {
   width: 50%;
+  border-radius: 50%;
   margin: 0 auto 15px auto;
 }
 .background-image-left {

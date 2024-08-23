@@ -11,8 +11,8 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Artificial Intelligence Enthusiast", "Web Designer", "Designer Graphic" ];
-  const period = 2000;
+  const toRotate = [ "AI Enthusiast", "Web Developer", "Designer Graphic" ];
+  const period = 1000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -77,4 +77,5 @@ work environment..</p>
       </Container>
     </section>
   )
+  
 }
