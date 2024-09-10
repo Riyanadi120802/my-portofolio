@@ -3,6 +3,7 @@ import skill2 from "../assets/pytorch.png";
 import skill3 from "../assets/tensorflow.png";
 import skill4 from "../assets/laravel.png";
 import skill5 from "../assets/office.png";
+import skill6 from "../assets/design.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 // import arrow1 from "../assets/arrow1.svg";
@@ -37,7 +38,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>I specialize in Intelligent Systems, Website Development, and Graphic Design, with a focus on creating innovative, data-driven solutions. In intelligent systems, I apply machine learning and computer vision to develop adaptive models like image classifiers. My website development skills encompass both front-end and back-end technologies, building responsive and functional sites using modern frameworks such as React and Laravel. Additionally, I excel in graphic design, producing visually appealing and purposeful designs that effectively communicate the desired message.</p>
                         <Carousel 
                             responsive={responsive} 
                             infinite={true} 
@@ -64,6 +65,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={skill5} alt="Image" />
                                 <h5>Web Development</h5>
+                            </div>
+                            <div className="item">
+                                <img src={skill6} alt="Image" />
+                                <h5>Design Grafis & Website</h5>
                             </div>
                         </Carousel>
                     </div>

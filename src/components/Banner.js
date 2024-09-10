@@ -57,10 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Riyan`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Data Analysis Enthusiast", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Graduated from Universitas Ahmad Dahlan Yogyakarta with interests in data analysis, intelligent systems 
-and graphic design. Have experience in Computer Vision through MBKM and thesis project using CNN 
-with MobileNetV2 architecture. Responsible, adaptive, and collaborative, ready to contribute in a dynamic 
-work environment..</p>
+                  <p>Graduated from Universitas Ahmad Dahlan Yogyakarta in 2024 with a GPA of 3.84, focusing on intelligent systems, web development, and graphic design. Experienced in Computer Vision through MBKM and a thesis project using CNN with MobileNetV2 architecture. Responsible, adaptive, and collaborative, ready to contribute in a dynamic work environment.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
