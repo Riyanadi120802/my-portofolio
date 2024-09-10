@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
-// import { Projects } from "./components/Projects";
-// import { Contact } from "./components/Contact";
-// import { Footer } from "./components/Footer";
+import { Project } from "./components/Project";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/footer";
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
-      {/* <Projects />
-      <Contact />
-      <Footer /> */}
+      <Project/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

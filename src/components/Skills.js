@@ -38,7 +38,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>I specialize in Intelligent Systems, Website Development, and Graphic Design, with a focus on creating innovative, data-driven solutions. In intelligent systems, I apply machine learning and computer vision to develop adaptive models like image classifiers. My website development skills encompass both front-end and back-end technologies, building responsive and functional sites using modern frameworks such as React and Laravel. Additionally, I excel in graphic design, producing visually appealing and purposeful designs that effectively communicate the desired message.</p>
+                        <p>I am enthusiastic about Intelligent Systems, Website Development, and Graphic Design, with a focus on creating innovative data-driven solutions. In intelligent systems, I apply machine learning and computer vision to develop adaptive models such as image classifiers. My website development expertise spans front-end and back-end technologies, building responsive and functional sites using modern frameworks such as React and Laravel. In addition, I excel in graphic design, producing visually appealing and purposeful designs that effectively communicate the desired message.</p>
                         <Carousel 
                             responsive={responsive} 
                             infinite={true} 
